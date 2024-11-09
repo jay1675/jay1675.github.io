@@ -9,8 +9,8 @@
     <meta property="og:description" content="김휘경 웹사이트">
     <link rel="shortcut icon" href="images/lemon.ico">
     <title>Hwi-Gyeong</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
@@ -22,29 +22,21 @@
         </div>
     </div>
 
-
     <header>
         <nav>
             <ul>
-                <li>
-                    <a href="#home"> 1️⃣ <span class="tooltip-text">Home</span></a>
-                </li>
-                <li>
-                    <a href="#about"> 2️⃣ <span class="tooltip-text">About Me</span></a>
-                </li>
-                <li>
-                    <a href="#favorite"> 3️⃣ <span class="tooltip-text">Favorite</span></a>
-                </li>
-                <li>
-                    <a href="#project"> 4️⃣ <span class="tooltip-text">Projects</span></a>
-                </li>
+                <li><a href="#home">1️⃣ <span class="tooltip-text">Home</span></a></li>
+                <li><a href="#about">2️⃣ <span class="tooltip-text">About Me</span></a></li>
+                <li><a href="#favorite">3️⃣ <span class="tooltip-text">Favorite</span></a></li>
+                <li><a href="#project">4️⃣ <span class="tooltip-text">Projects</span></a></li>
             </ul>
         </nav>
     </header>
-    
+
     <main>
         <div class="container">
-            <section id="home">
+
+            <section id="home" class="container">
                 <div class="title">
                     <h1></h1>
                     <p>Welcome to My Website.</p>
@@ -53,113 +45,81 @@
                 <div class="scroll">
                     <p>Click Here!</p>
                     <a href="#about" class="scroll-button">
-                        <span class="arrow">&#8595;</span> <!-- 아래 화살표 문자 -->
-
+                        <span class="arrow">&#8595;</span>
                     </a>
                 </div>
-            </section> <!-- 이곳에서 section을 닫아줍니다 -->
-        
+            </section>
+       
 
-
-        <section id="about">
-            <div class="category">
-                <h2>About Me</h2>
-            </div>
-
-            <div class="about_profile">
-                <br/><br/>
-                
-                <div class="img_box">
-                    <img src="images/profile.png" alt="프로필 사진">
+            <section id="about" class="container">
+                <div class="category">
+                    <h2>About Me</h2>
                 </div>
 
-                <br/><br/>
-                <div class="introduction">
-                    <ul class="desc_box1">
+                <div class="about_profile">
+                    <br/><br/>
+                    <div class="img_box">
+                        <img src="images/profile.png" alt="프로필 사진">
+                    </div>
+                    <br/><br/>
+                    <div class="introduction">
+                        <ul class="desc_box1">
+                            <li><div><p>Name</p><p>Kim Hwi-Gyeong</p></div></li>
+                            <li><div><p>Birth</p><p>2001.02.01</p></div></li>
+                            <li><div><p>MBTI</p><p>INTP</p></div></li>
+                        </ul>
+                        <br/><br/>
+                        <div class="desc_box2">
+                            <span>010-3832-0350</span>
+                            <span class="phone-icon"><img src="images/phone.png" alt="전화 아이콘"></span>
+                        </div>
+                        <div class="desc_box2">
+                            <span>gnlrud5641@sogang.ac.kr</span>
+                            <span class="email-icon"><img src="images/email.png" alt="메일 아이콘"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="favorite" class="container">
+                <div class="category">
+                    <h2>Favorite</h2>
+                    <p>Show my favorite things by drawing them myself</p>
+                </div>
+                <div class="slide_warp">
+                    <ul class="slides">
                         <li>
-                            <div>
-                                <p>Name</p>
-                                <p>Kim Hwi-Gyeong</p>
+                            <div class="slide_img_box">
+                                <img src="images/f1.jpg" alt="비숑">
+                            </div>
+                            <div class="slide_text_box">
+                                <p class="title">Dog</p>
+                                <p class="desc">I love dogs. This is a picture of my dog named Hyun-Sook.</p>
                             </div>
                         </li>
                         <li>
-                            <div>
-                                <p>Birth</p>
-                                <p>2001.02.01</p>
-                                
+                            <div class="slide_img_box">
+                                <img src="images/f3.png" alt="토토로">
+                            </div>
+                            <div class="slide_text_box">
+                                <p class="title">Movie</p>
+                                <p class="desc">I love movies. Especially, animated movies from Studio Ghibli are my favorite.</p>
                             </div>
                         </li>
                         <li>
-                            <div>
-                                <p>MBTI</p>
-                                <p>INTP</p>
+                            <div class="slide_img_box">
+                                <img src="images/f2.jpg" alt="양현종">
+                            </div>
+                            <div class="slide_text_box">
+                                <p class="title">Baseball</p>
+                                <p class="desc">I love watching Korean baseball games. This is a picture of my favorite baseball player, Yang Hyun-Jong.</p>
                             </div>
                         </li>
                     </ul>
-                    <br/><br/>
-                    <div class="desc_box2">
-                        <span>010-3832-0350</span>
-                        <span class="phone-icon"><img src="images/phone.png" alt="전화 아이콘"></span>
-                    </div>
-                    
-
-                    
-                    <div class="desc_box2">  
-                        <span>gnlrud5641@sogang.ac.kr</span>
-                        <span class="email-icon"><img src="images/email.png" alt="메일 아이콘"></span>
-    
-                    </div>
                 </div>
-            </div>
+            </section>
 
-        </section>
-
-
-
-        <section id="favorite">
-            <div class="category">
-                <h2>Favorite</h2>
-                <p>Show my favorite things by drawing them myself</p>
-            </div>
-            <div class="slide_warp">
-                <ul class="slides">
-                    <li>
-                        <div class="slide_img_box">
-                            <img src="images/f1.jpg" alt="비숑">
-                        </div>
-                        <div class="slide_text_box">
-                           
-                            <p class="title">Dog</p>
-                            <p class="desc">I love dogs. This is a picture of my dog named Hyun-Sook.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="slide_img_box">
-                            <img src="images/f3.png" alt="토토로">
-                        </div>
-                        <div class="slide_text_box">
-                            
-                            <p class="title">Movie</p>
-                            <p class="desc">
-                                I love movies. Especially, animated movies from Studio Ghibli are my favorite.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="slide_img_box">
-                            <img src="images/f2.jpg" alt="양현종">
-                        </div>
-                        <div class="slide_text_box">
-                        
-                            <p class="title">Baseball</p>
-                            <p class="desc">I love watching Korean baseball games. This is a picture of my favorite baseball player, Yang Hyun-Jong.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-            <section id="project">
+            <section id="project" class="container">
                 <div class="container">
                     <div class="category">
                         <h2>Projects</h2>
@@ -173,14 +133,11 @@
                     </div>
                 </div>
             </section>
-            
-    
+        </div>
+        
 
 
-     </div>
-</main>
-
-
+    </main>
 
     <script src="js/loading.js"></script>
     <script src="js/main.js"></script>
