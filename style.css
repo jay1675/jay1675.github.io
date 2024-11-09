@@ -8,6 +8,9 @@
     font-style: normal;
 }
 
+
+
+
 /* Font */
 body {
     font-family: 'Poppins', sans-serif;
@@ -103,7 +106,10 @@ section {
 }
 
 .container {
-    min-width: 1200px;
+    max-width: 1200px;
+    width: 100%;/* 원하는 너비 */
+    margin: 0 auto; /* 가로 가운데 정렬 */
+    padding: 0 20px; /* 좌우 여백 */
 }
 
 
