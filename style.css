@@ -106,10 +106,7 @@ section {
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;/* 원하는 너비 */
-    margin: 0 auto; /* 가로 가운데 정렬 */
-    padding: 0 20px; /* 좌우 여백 */
+  
 }
 
 
@@ -159,7 +156,7 @@ header a:hover .tooltip-text {
 
 /* Home */
 #home {
-    background-color: #8D9B8E;
+    background-color: #546D67;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 -120px;
@@ -229,7 +226,7 @@ header a:hover .tooltip-text {
     position: relative;
     background-image: url("../images/about.jpg");
     background-size: cover;
-    background-color: #D8D9D1;
+    background-color: #E5E5E0;
     text-align: center;
 }
 
@@ -395,14 +392,6 @@ header a:hover .tooltip-text {
     object-fit: cover;
 }
 
-
-
-
-
-
-
-
-
 #about .category {
     margin-bottom: 10px;
 }
@@ -425,14 +414,6 @@ header a:hover .tooltip-text {
     margin-right: 20px;
     width: 300px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -523,7 +504,7 @@ header a:hover .tooltip-text {
 
 /* Goal */
 #goal {
-    background-image: url("../images/goal.jpg");
+    background-color: #E5E5E0;
     background-size: cover;
 }
 
@@ -583,7 +564,7 @@ header a:hover .tooltip-text {
 }
 
 #goal .goal_box .goal_detail:nth-child(1) .goal_detaile_imgbox{
-    background-image: url("../images/level_up.gif");
+    background-image: url("images/g1.png");
     background-size: cover;
     background-position: center;
 
@@ -591,7 +572,7 @@ header a:hover .tooltip-text {
 
 
 #goal .goal_box .goal_detail:nth-child(2) .goal_detaile_imgbox{
-    background-image: url("../images/fun.gif");
+    background-image: url("images/g2.jpg");
     background-size: 120% 100%;
     background-position: center;
 }
@@ -599,7 +580,7 @@ header a:hover .tooltip-text {
 
 
 #goal .goal_box .goal_detail:nth-child(3) .goal_detaile_imgbox{
-    background-image: url("../images/together.gif");
+    background-image: url("images/g3.jpg");
     background-size: cover;
 
 }
@@ -622,16 +603,12 @@ header a:hover .tooltip-text {
 
 
 
-
-
-
-
 #project {
     display: flex;
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    background-color: #34353A;
+    background-color: #5C6466;
 }
 
 #project .category {
